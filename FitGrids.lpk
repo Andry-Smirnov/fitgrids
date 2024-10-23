@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="FitGrids"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Dmitry Morozov"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CustomOptions Value="-dLazarus"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Package provides a few grid components for Delphi &amp; Lazarus:
+
+TClipboardGrid - The grid provides copying and pasting operation with the clipboard. 
+TGEFGrid - The grid controls exit from cell editing. At the moment of exit event of type TGridEditingFinished is generated.
+TIDAGrid - The grid implements operations of inserting, adding, deleting rows and colums as well as pasting/copying text from/in the ClipBooard (IDA is acronym of Insert, Delete, Add).
+TDataGrid - The grid which can call methods of class - data source and exchange data with objects of that class (class must implement special interface).
+TColoredGrid, TColorStringGrid - Theses grids allow setting up colors of different types of cells at design time.
+TNumericGrid - The grid allows to contol input of numbers.
+"/>
+    <License Value="GPL"/>
+    <Version Major="1"/>
+    <Files Count="1">
+      <Item1>
+        <Filename Value="NumericGrid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="NumericGrid"/>
+      </Item1>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
