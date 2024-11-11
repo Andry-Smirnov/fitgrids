@@ -1,4 +1,4 @@
-﻿unit ExamplesMain;
+unit ExamplesMain;
 
 {$IFDEF Lazarus}
 {$MODE Delphi}
