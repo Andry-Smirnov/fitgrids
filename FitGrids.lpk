@@ -5,6 +5,7 @@
     <Name Value="FitGrids"/>
     <Type Value="RunAndDesignTime"/>
     <Author Value="Dmitry Morozov"/>
+    <AutoUpdate Value="OnRebuildingAll"/>
     <CompilerOptions>
       <Version Value="11"/>
       <PathDelim Value="\"/>
