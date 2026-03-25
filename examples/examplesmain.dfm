@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 472
-  Top = 108
+  Left = 115
+  Top = 68
   BorderStyle = bsDialog
-  Caption = 'Fit Grids Examples'
+  Caption = 'FitGrids Examples'
   ClientHeight = 678
   ClientWidth = 921
   Color = clBtnFace
@@ -23,7 +23,6 @@ object Form1: TForm1
     Caption = 'TColorStringGrid'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label2: TLabel
     Left = 8
@@ -33,7 +32,6 @@ object Form1: TForm1
     Caption = 'TNumericGrid'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label3: TLabel
     Left = 464
@@ -43,7 +41,6 @@ object Form1: TForm1
     Caption = 'TColoredGrid'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label4: TLabel
     Left = 464
@@ -53,7 +50,6 @@ object Form1: TForm1
     Caption = 'TIDAGrid'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label5: TLabel
     Left = 464
@@ -63,7 +59,6 @@ object Form1: TForm1
     Caption = 'TDataGrid'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label6: TLabel
     Left = 8
@@ -73,7 +68,6 @@ object Form1: TForm1
     Caption = 'TGEFGrid'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label7: TLabel
     Left = 8
@@ -85,7 +79,6 @@ object Form1: TForm1
       'ign time.'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label8: TLabel
     Left = 8
@@ -97,7 +90,6 @@ object Form1: TForm1
       'of cell.'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label9: TLabel
     Left = 8
@@ -109,7 +101,6 @@ object Form1: TForm1
       'pe.'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label10: TLabel
     Left = 464
@@ -119,7 +110,6 @@ object Form1: TForm1
     Caption = 'Grid is fully controlled by object implementing IGridDataSource.'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label11: TLabel
     Left = 464
@@ -131,7 +121,6 @@ object Form1: TForm1
       'ource.'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object Label12: TLabel
     Left = 464
@@ -143,7 +132,6 @@ object Form1: TForm1
       'lect the operation).'
     Color = clBtnFace
     ParentColor = False
-    Transparent = False
   end
   object ColorStringGrid1: TColorStringGrid
     Left = 8
@@ -152,7 +140,6 @@ object Form1: TForm1
     Height = 166
     ColCount = 5
     RowCount = 5
-    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
     TabOrder = 0
     OddRowColor = clWhite
     EvenRowColor = clAqua
@@ -173,7 +160,6 @@ object Form1: TForm1
     Height = 166
     ColCount = 6
     RowCount = 5
-    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
     TabOrder = 1
     OddRowColor = clWhite
     EvenRowColor = clYellow
@@ -189,7 +175,6 @@ object Form1: TForm1
     Height = 166
     ColCount = 5
     RowCount = 5
-    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
     TabOrder = 2
     Modified = False
     OnGridEditingFinished = GEFGrid1GridEditingFinished
@@ -201,7 +186,6 @@ object Form1: TForm1
     Height = 166
     ColCount = 5
     RowCount = 5
-    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
     PopupMenu = PopupMenuIDAGrid
     TabOrder = 3
     Modified = False

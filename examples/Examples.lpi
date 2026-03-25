@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="11"/>
+    <Version Value="9"/>
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="demo"/>
+      <Title Value="Examples"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
-      <XPManifest>
-        <TextName Value="dvmorozov.fitgrids.demo"/>
-        <TextDesc Value="Demonstrates grid components in action."/>
-      </XPManifest>
-      <Icon Value="0"/>
     </General>
     <i18n>
       <EnableI18N LFM="False"/>
     </i18n>
     <VersionInfo>
-      <UseVersionInfo Value="True"/>
-      <AutoIncrementBuild Value="True"/>
-      <MinorVersionNr Value="1"/>
-      <RevisionNr Value="4"/>
-      <BuildNr Value="40"/>
-      <Attributes pvaDebug="True"/>
+      <StringTable ProductVersion=""/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -33,10 +23,9 @@
       <Version Value="2"/>
     </PublishOptions>
     <RunParams>
-      <FormatVersion Value="2"/>
-      <Modes Count="1">
-        <Mode0 Name="default"/>
-      </Modes>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
     </RunParams>
     <RequiredPackages Count="2">
       <Item1>
@@ -65,18 +54,13 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="bin\demo"/>
+      <Filename Value="bin\Examples"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="..\package"/>
+      <OtherUnitFiles Value="$(LazarusDir)\components\ideintf"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
-    <Parsing>
-      <SyntaxOptions>
-        <SyntaxMode Value="Delphi"/>
-      </SyntaxOptions>
-    </Parsing>
     <Linking>
       <Options>
         <Win32>
@@ -86,9 +70,6 @@
     </Linking>
     <Other>
       <CustomOptions Value="-dLazarus"/>
-      <OtherDefines Count="1">
-        <Define0 Value="Lazarus"/>
-      </OtherDefines>
     </Other>
   </CompilerOptions>
   <Debugging>
